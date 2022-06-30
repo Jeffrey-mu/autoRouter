@@ -33,7 +33,7 @@ app.use('/data', data)
 ....
 ```
 
-before
+after
 
 ```js
 // app.js
