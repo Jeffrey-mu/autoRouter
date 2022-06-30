@@ -1,0 +1,29 @@
+{
+  "name": "jfautorouter",
+  "version": "1.0.0",
+  "description": "Express Auto register route",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.mjs",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "unbuild"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jeffrey-mu/autoRouter.git"
+  },
+  "keywords": [
+    "express"
+  ],
+  "author": "Jeffrey-mu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jeffrey-mu/autoRouter/issues"
+  },
+  "homepage": "https://github.com/Jeffrey-mu/autoRouter#readme",
+  "devDependencies": {
+    "unbuild": "^0.7.4"
+  }
+}
