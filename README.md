@@ -9,8 +9,8 @@ npm i fautorouter
 ### Usage
 
 ```js
-const asyncCacheFn = require("fautorouter");
+const fautorouter = require("fautorouter");
 let app = express();
 let dir = path.join(__dirname, "/routes");
-asyncCacheFn(app, dir);
+fautorouter(app, dir);
 ```
