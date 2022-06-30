@@ -1,15 +1,15 @@
-# autorouter
+# jfautorouter
 
 ### install
 
 ```shell
-npm i autorouter
+npm i jfautorouter
 ```
 
 ### Usage
 
 ```js
-const asyncCacheFn = require("autorouter");
+const asyncCacheFn = require("jfautorouter");
 let app = express();
 let dir = path.join(__dirname, "/routes");
 asyncCacheFn(app, dir);
