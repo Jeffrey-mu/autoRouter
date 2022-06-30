@@ -1,6 +1,6 @@
 {
-  "name": "jfautorouter",
-  "version": "1.0.0",
+  "name": "fautorouter",
+  "version": "0.0.1",
   "description": "Express Auto register route",
   "main": "./dist/index.cjs",
   "module": "./dist/index.mjs",
