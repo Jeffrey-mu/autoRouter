@@ -20,7 +20,7 @@ module.exports = function buildRoutes(app, path) {
         }
       } else if (isDirectory) {
         let fielPath = path + '/' + file
-        buildRoutes(fielPath)
+        buildRoutes(app, fielPath)
       }
     } catch (err) {
       // console.log(err);
